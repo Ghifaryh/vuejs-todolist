@@ -1,11 +1,13 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import AppHeaders from './components/AppHeaders.vue';
+import ListItem from './components/ListItem.vue';
+// import Task from './components/TaskItem.vue';
+// import './style.css';
+</script>
 
 <template>
-  <h1>You didid 🫵</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <AppHeaders />
+  <ListItem />
+  <!-- <Task :isChecked="false">Membuat baju</Task> -->
+  <!-- <Task :isChecked="false">Membuat baju good</Task> -->
 </template>
-
-<style scoped></style>
